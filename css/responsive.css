@@ -9,27 +9,40 @@
   .login-btn {
     width: 100vw;
   }
-  .banner-container{
+  .banner-container {
     flex-direction: column-reverse;
   }
-  .banner-text{
+  .banner-text {
     width: 100%;
   }
-  .banner-img{
+  .banner-img {
     width: 100%;
   }
-  .banner-text h3{
+  .banner-text h3 {
     font-size: 2.5em;
-}
-  .banner-text h6{
+  }
+  .banner-text h6 {
     font-size: 2em;
   }
-  .icons .fa-brands{
+  .icons .fa-brands {
     font-size: 1.5em;
-    
   }
   .products-container {
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     padding: 1em;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .discount-container {
+    flex-direction: column;
+  }
+  .discount-text{
+    padding: 1em;
+  }
+  .discount-img,
+  .discount-text {
+    width: 100%;
   }
 }
