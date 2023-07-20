@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Lato:wght@400;700;900&display=swap');
 
 /* Reset Styles */
 * {
@@ -9,6 +9,7 @@
 }
 body {
   font-family: "Lato", sans-serif;
+  
 }
 /* Navbar Styles Starts */
 .menu-container {
@@ -64,5 +65,59 @@ body {
   border-radius: 5px;
   background-color: #e893cf;
 }
-
 /* Navbar Styles Ends */
+/* Banner Styles Starts */
+.banner-container{
+    display: flex;
+    align-items: center;
+    background-color: #e6e9ec;
+    max-width: 1200px;
+    margin: 5em auto;
+    padding: 1em;
+    border-radius: 10px;
+}
+.banner-text{
+    width: 50%;
+    text-align: center;
+}
+.banner-text h3{
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3em;
+}
+.banner-text h6{
+  font-size: 2em;
+  margin: 1em 0;
+  font-family: 'Dancing Script', cursive;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.icons .fa-brands{
+  font-size: 3em;
+  
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+button a{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #000;
+}
+button {
+  border: 1px solid #9376e0;
+  border-radius: 10px;
+  padding: 1em;
+  margin-right: 1em;
+}
+/* Banner Styles Ends */

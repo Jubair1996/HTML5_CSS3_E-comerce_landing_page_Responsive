@@ -9,4 +9,23 @@
   .login-btn {
     width: 100vw;
   }
+  .banner-container{
+    flex-direction: column-reverse;
+  }
+  .banner-text{
+    width: 100%;
+  }
+  .banner-img{
+    width: 100%;
+  }
+  .banner-text h3{
+    font-size: 2.5em;
+}
+  .banner-text h6{
+    font-size: 2em;
+  }
+  .icons .fa-brands{
+    font-size: 1.5em;
+    
+  }
 }
