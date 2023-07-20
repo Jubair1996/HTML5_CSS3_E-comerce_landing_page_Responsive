@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Lato:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Lato:wght@400;700;900&display=swap");
 
 /* Reset Styles */
 * {
@@ -9,7 +9,6 @@
 }
 body {
   font-family: "Lato", sans-serif;
-  
 }
 /* Navbar Styles Starts */
 .menu-container {
@@ -67,49 +66,48 @@ body {
 }
 /* Navbar Styles Ends */
 /* Banner Styles Starts */
-.banner-container{
-    display: flex;
-    align-items: center;
-    background-color: #e6e9ec;
-    max-width: 1200px;
-    margin: 5em auto;
-    padding: 1em;
-    border-radius: 10px;
+.banner-container {
+  display: flex;
+  align-items: center;
+  background-color: #e6e9ec;
+  max-width: 1200px;
+  margin: 5em auto;
+  padding: 1em;
+  border-radius: 10px;
 }
-.banner-text{
-    width: 50%;
-    text-align: center;
+.banner-text {
+  width: 50%;
+  text-align: center;
 }
-.banner-text h3{
-    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-size: 3em;
+.banner-text h3 {
+  background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 3em;
 }
-.banner-text h6{
+.banner-text h6 {
   font-size: 2em;
   margin: 1em 0;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
-.icons{
+.icons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1em;
   margin-bottom: 1em;
 }
-.icons .fa-brands{
+.icons .fa-brands {
   font-size: 3em;
-  
 }
-.banner-img{
-    width: 50%;
+.banner-img {
+  width: 50%;
 }
-.banner-img img{
-    width: 100%;
-    border-radius: 10px;
+.banner-img img {
+  width: 100%;
+  border-radius: 10px;
 }
-button a{
+button a {
   text-decoration: none;
   font-size: 1.5em;
   color: #000;
@@ -121,3 +119,52 @@ button {
   margin-right: 1em;
 }
 /* Banner Styles Ends */
+/*  Products Section Starts */
+.products {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.products-title {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  margin: 1em 0;
+}
+.products-cards {
+  padding: 1em;
+  box-shadow: 2px 2px 4px #000;
+  background-color: #e6e9ec;
+  border-radius: 10px;
+}
+.products-cards img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+.products-title {
+  font-size: 1.5em;
+}
+.products-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products-icon {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.5em;
+}
+.products-description {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+.products-price {
+  font-size: 1em;
+}
+/*  Products Section Ends */
